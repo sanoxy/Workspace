@@ -1,14 +1,20 @@
 # C COURSE PRIVATE REPOSITORY
 ### Content Of The Course
 1. C Introduction (DONE)
-2. C Flow Control
-3. C Functions
-4. C Arrays
-5. C Pointers
-6. C Strings
-7. Structure And Union
-8. C Files
-9. Additional Topics
+> Keywords & Identifier
+> Variables & Constants
+> C Data Types
+> C Input/Output
+> C Operators
+> C Introduction Examples
+3. C Flow Control
+4. C Functions
+5. C Arrays
+6. C Pointers
+7. C Strings
+8. Structure And Union
+9. C Files
+10. Additional Topics
 
 ### Assignments
 1. Write a program that finds a number taken from user is prime or not.
