@@ -1,12 +1,12 @@
 # C COURSE PRIVATE REPOSITORY
 ### Content Of The Course
-1. C Introduction (DONE)
-    - :heavy_check_mark: Keywords & Identifier
-    - Variables & Constants
-    - C Data Types
-    - C Input/Output
-    - C Operators
-    - C Introduction Examples
+1. C Introduction
+    - Keywords & Identifier:heavy_check_mark:
+    - Variables & Constants:heavy_check_mark:
+    - C Data Types:heavy_check_mark:
+    - C Input/Output:heavy_check_mark:
+    - C Operators:heavy_check_mark:
+    - C Introduction Examples:heavy_check_mark:
 3. C Flow Control
     - C if...else
     - C for Loop
