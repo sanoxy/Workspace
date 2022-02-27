@@ -1,7 +1,7 @@
 # C COURSE PRIVATE REPOSITORY
 ### Content Of The Course
 1. C Introduction (DONE)
-    - [X] Keywords & Identifier
+    - :heavy_check_mark: Keywords & Identifier
     - Variables & Constants
     - C Data Types
     - C Input/Output
