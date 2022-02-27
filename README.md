@@ -10,7 +10,7 @@
 8. C Files
 9. Additional Topics
 
-# Assignments
+### Assignments
 1. Write a program that finds a number taken from user is prime or not.
 2. Find prime numbers between two interval. Min and Max points of that interval should be taken from user.
 3. Print triangles shown below
