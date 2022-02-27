@@ -187,7 +187,147 @@ int main() {
 
 	//printf("Factorial: %d", factorial);
 
+	/*int t1 = 0, t2 = 1;
+	int nextTerm = t1 + t2;
+	int n;
+
+	printf("Enter the number of terms: ");
+	scanf("%d", &n);
+
+	printf("Fibonacci Series: %d, %d, ", t1, t2);
+	for (int i = 3; i <= n; i++) {
+		printf("%d, ", nextTerm);
+		t1 = t2;
+		t2 = nextTerm;
+		nextTerm = t1 + t2;
+	}*/
+
+	//12345 => 5
+
+	/*int number, answer = 0;
+	scanf("%d", &number);
+
+	if (number < 0) {
+		number *= -1;
+	}
+
+	do {
+		number /= 10;
+		answer++;
+	} while (number>0);
+
+	printf("Number of digits : %d", answer);*/
+
+	/*int number, answer = 0, reminder = 0;
+	scanf("%d", &number);
+
+	while (number > 0) {
+		reminder = number % 10;
+		answer = answer * 10 + reminder;
+		number /= 10;
+	}
+
+	printf("Reversed Numbers : %d", answer);*/
+
+	/*int base, exp, result = 1;
+	printf("Enter base and exponent = ");
+	scanf("%d %d", &base, &exp);
+
+	while (exp > 0) {
+		result = base * result;
+		exp--;
+	}
+
+	printf("Answer: %d", result);*/
+
+	/*int number;
+	printf("Enter number=");
+	scanf("%d", &number);
+
+	if (number < 0) {
+		number *= -1;
+
+		for (int i = 1; i <= number; i++) {
+			if (number % i == 0) {
+				printf("-%d, ", i);
+			}
+		}
+	}
+	else {
+		for (int i = 1; i <= number; i++) {
+			if (number % i == 0) {
+				printf("%d, ", i);
+			}
+		}
+	}*/
+
+	/*int satir;
+	printf("Satir sayisini girin;");
+	scanf("%d", &satir);
+	for (int i = 1; i <= satir; i++) {
+		for (int j = 1; j <= i; j++) {
+			printf("* ");
+		}
+		printf("\n");
+	}*/
+
+	/*
 	
+	      *
+        * * *
+      * * * * *
+    * * * * * * *
+  * * * * * * * * *
+	
+	
+	
+	
+	*/
+	/*int satir;
+	printf("Satir sayisini girin;");
+	scanf("%d", &satir);
+
+	int k = 0;
+
+	for (int i = 1; i <= satir; ++i, k = 0) {
+		for (int space = 1; space <= satir - i; ++space) {
+			printf("  ");
+		}
+		while (k != 2 * i - 1) {
+			printf("* ");
+			++k;
+		}
+		printf("\n");
+	}*/
+
 
 	return 0;
 }
+
+/*
+		1. Find given number is prime or not.
+		2. Find numbers between min and max are prime or not.
+		3. Print triangles shown below
+
+		------------------
+			1
+			1 2
+			1 2 3
+			1 2 3 4
+			1 2 3 4 5
+		-----------------
+			A
+			B B
+			C C C		(ASCII)
+			D D D D
+			E E E E E
+
+		--------------------
+
+			* * * * *
+			* * * *
+			* * * 
+			* *
+			*
+
+*/
