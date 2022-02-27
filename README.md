@@ -1,12 +1,12 @@
 # C COURSE PRIVATE REPOSITORY
 ### Content Of The Course
 1. C Introduction (DONE)
-- Keywords & Identifier
-- Variables & Constants
-- C Data Types
-- C Input/Output
-- C Operators
-- C Introduction Examples
+    - Keywords & Identifier
+    - Variables & Constants
+    - C Data Types
+    - C Input/Output
+    - C Operators
+    - C Introduction Examples
 3. C Flow Control
 4. C Functions
 5. C Arrays
