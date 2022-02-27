@@ -8,13 +8,13 @@
     - C Operators:heavy_check_mark:
     - C Introduction Examples:heavy_check_mark:
 3. C Flow Control
-    - C if...else
-    - C for Loop
-    - C while Loop
-    - C break and continue
-    - C switch...case
-    - C Programming goto
-    - Control Flow Examples
+    - C if...else:heavy_check_mark:
+    - C for Loop:heavy_check_mark:
+    - C while Loop:heavy_check_mark:
+    - C break and continue:heavy_check_mark:
+    - C switch...case:heavy_check_mark:
+    - C Programming goto:heavy_check_mark:
+    - Control Flow Examples:heavy_check_mark:
 5. C Functions
     - C Programming Functions
     - C User-defined Functions
