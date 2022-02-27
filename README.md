@@ -15,21 +15,21 @@
 2. Find prime numbers between two interval. Min and Max points of that interval should be taken from user.
 3. Print triangles shown below
 
-		------------TRIANGLE-1------------
-			1
-			1 2
-			1 2 3
-			1 2 3 4
-			1 2 3 4 5
-		------------TRIANGLE-2------------
-			A
-			B B
-			C C C
-			D D D D
-			E E E E E
-		------------TRIANGLE-3------------
-			* * * * *
-			* * * *
-			* * * 
-			* *
-			*
+------------TRIANGLE-1------------
+	1
+	1 2
+	1 2 3
+	1 2 3 4
+	1 2 3 4 5
+------------TRIANGLE-2------------
+	A
+	B B
+	C C C
+	D D D D
+	E E E E E
+------------TRIANGLE-3------------
+	* * * * *
+	* * * *
+	* * * 
+	* *
+	*
