@@ -8,13 +8,48 @@
     - C Operators
     - C Introduction Examples
 3. C Flow Control
-4. C Functions
-5. C Arrays
-6. C Pointers
-7. C Strings
-8. Structure And Union
-9. C Files
-10. Additional Topics
+    - C if...else
+    - C for Loop
+    - C while Loop
+    - C break and continue
+    - C switch...case
+    - C Programming goto
+    - Control Flow Examples
+5. C Functions
+    - C Programming Functions
+    - C User-defined Functions
+    - C Function Types
+    - C Recursion
+    - C Storage Class
+    - C Function Examples
+7. C Arrays
+    - C Programming Arrays
+    - C Multi-dimensional Arrays
+    - C Arrays & Function
+9. C Pointers
+    - C Programming Pointers
+    - C Pointers & Arrays
+    - C Pointers And Functions
+    - C Memory Allocation
+    - Array & Pointer Examples
+11. C Strings
+    - C Programming String
+    - C String Functions
+    - C String Examples
+13. Structure And Union
+    - C Structure
+    - C Struct & Pointers
+    - C Struct & Function
+    - C Unions
+    - C struct Examples
+15. C Files
+    - C Files Input/Output
+    - C Files Examples
+17. Additional Topics
+    - C Enumeration
+    - C Preprocessors
+    - C Standard Library
+    - C Programming Examples
 
 ### Assignments
 1. Write a program that finds a number taken from user is prime or not.
