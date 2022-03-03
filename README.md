@@ -53,10 +53,6 @@
 
 ### Assignments
 1. Write a program that finds a number taken from user is prime or not.
-```
-aaaaa
-```
-
 3. Find prime numbers between two interval. Min and Max points of that interval should be taken from user.
 4. Print triangles shown below
 ```
