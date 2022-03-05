@@ -300,6 +300,15 @@ int main() {
 		printf("\n");
 	}*/
 
+int number;
+printf("Enter an integer =");
+scanf("%d", &number);
+for (int j = 2; j <= i / 2; j++) {
+	if (i % j == 0) {
+		printf("%d is prime!\n", i);
+	}
+	else {
+		printf("%d is not prime!\n", i);
 
 	return 0;
 }

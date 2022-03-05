@@ -1,2 +1,6 @@
 ﻿  Source.c
-  Ders2.vcxproj -> C:\Users\erkan.ozcan.MCE-LLC\OneDrive - Mission Critical Electronics\Documents\GitHub\Workspace\Ders2\x64\Debug\Ders2.exe
+C:\Users\erkan.ozcan.MCE-LLC\OneDrive - Mission Critical Electronics\Documents\GitHub\Workspace\Ders2\Source.c(306,24): error C2065: 'i': undeclared identifier
+C:\Users\erkan.ozcan.MCE-LLC\OneDrive - Mission Critical Electronics\Documents\GitHub\Workspace\Ders2\Source.c(307,8): error C2065: 'i': undeclared identifier
+C:\Users\erkan.ozcan.MCE-LLC\OneDrive - Mission Critical Electronics\Documents\GitHub\Workspace\Ders2\Source.c(308,29): error C2065: 'i': undeclared identifier
+C:\Users\erkan.ozcan.MCE-LLC\OneDrive - Mission Critical Electronics\Documents\GitHub\Workspace\Ders2\Source.c(311,33): error C2065: 'i': undeclared identifier
+C:\Users\erkan.ozcan.MCE-LLC\OneDrive - Mission Critical Electronics\Documents\GitHub\Workspace\Ders2\Source.c(306): fatal error C1075: '{': no matching token found

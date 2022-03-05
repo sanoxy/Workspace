@@ -1,2 +1,4 @@
 ﻿  Source.c
-  Ders-3.vcxproj -> C:\Users\erkan.ozcan.MCE-LLC\OneDrive - Mission Critical Electronics\Documents\GitHub\Workspace\Ders-3\x64\Debug\Ders-3.exe
+C:\Users\erkan.ozcan.MCE-LLC\OneDrive - Mission Critical Electronics\Documents\GitHub\Workspace\Ders-3\Source.c(178,23): error C2065: 'n': undeclared identifier
+C:\Users\erkan.ozcan.MCE-LLC\OneDrive - Mission Critical Electronics\Documents\GitHub\Workspace\Ders-3\Source.c(179,17): error C2065: 'j': undeclared identifier
+C:\Users\erkan.ozcan.MCE-LLC\OneDrive - Mission Critical Electronics\Documents\GitHub\Workspace\Ders-3\Source.c(179): fatal error C1075: '{': no matching token found

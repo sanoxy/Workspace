@@ -152,5 +152,36 @@ int main() {
 
 	printf("%d", answer);*/
 
+/*	int prime(int number) {
+		if (%number = 0) {
+			return number + addnums(number - 1);
+		}
+		else {
+			return number;
+		}
+	}*/
+
+/*void prime(int min, int max) {
+	for (int i = min;i < max; i++) {
+		bool flag = true;
+
+		for (int j = 2; j <= i / 2; j++) {
+			if (i % j == 0) {
+				flag = false;
+				break;
+			}
+		}*/
+
+	int number, i;
+	printf("Enter an integer =");
+	scanf("%d", &number);
+	if (number == 0 || n == 1)
+		for (i = 2; j <= number / 2; i++) {
+			if (number % i == 0) {
+				printf("%d is prime!\number", i);
+			}
+			else {
+				printf("%d is not prime!\number", i);
+
 	return 0;
 }
