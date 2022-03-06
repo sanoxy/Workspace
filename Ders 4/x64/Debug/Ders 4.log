@@ -1,0 +1,4 @@
+﻿  Source.c
+C:\Users\erkan.ozcan.MCE-LLC\OneDrive - Mission Critical Electronics\Documents\GitHub\Workspace\Ders 4\Source.c(57,12): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\erkan.ozcan.MCE-LLC\OneDrive - Mission Critical Electronics\Documents\GitHub\Workspace\Ders 4\Source.c(60,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Ders 4.vcxproj -> C:\Users\erkan.ozcan.MCE-LLC\OneDrive - Mission Critical Electronics\Documents\GitHub\Workspace\Ders 4\x64\Debug\Ders 4.exe
