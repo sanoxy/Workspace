@@ -1,0 +1,9 @@
+
+Name: Alperen 
+Marks: 22
+
+Name: Koray 
+Marks: 44
+
+Name: Cnasu 
+Marks: 77
