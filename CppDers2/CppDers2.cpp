@@ -236,7 +236,7 @@ int number = 10;
 
 int main()
 {
-	int var1 = 3;
+	/*int var1 = 3;
 	int var2 = 5;
 	int var3 = 17;
 
@@ -249,8 +249,9 @@ int main()
 	pointVar = &var1;
 
 	cout << "Pointer: " << pointVar << endl;
+	cout << "Content of pointer : " << *pointVar << endl;
 
-
+	cout << *(&var1) << endl;*/
 
 	/*Count c1;
 	c1.display();
