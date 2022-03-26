@@ -1,5 +1,2 @@
 ﻿  CppQuestion.cpp
-C:\Users\erkan.ozcan.MCE-LLC\OneDrive - Mission Critical Electronics\Documents\GitHub\Workspace\CppQuestion\CppQuestion.cpp(7,35): warning C4305: 'argument': truncation from 'double' to 'float'
-  Student.cpp
-  Generating Code...
   CppQuestion.vcxproj -> C:\Users\erkan.ozcan.MCE-LLC\OneDrive - Mission Critical Electronics\Documents\GitHub\Workspace\CppQuestion\x64\Debug\CppQuestion.exe

@@ -45,3 +45,7 @@ void Student::printInfo() {
 	cout << "ID = " << this->getID() << endl;
 	cout << "GPA = " << this->getGPA() << endl;
 }
+
+string Student::toString() {
+	return this->getName() + " " + std::to_string(this->getAge()) + " " + std::to_string(this->getID()) + " " + std::to_string(this->getGPA()) + "\n";
+}

@@ -1,5 +1,6 @@
 #pragma once
 #include <iostream>
+#include <string>
 using namespace std;
 class Student
 {
@@ -10,6 +11,8 @@ private:
 	float GPA;
 public:
 	Student(string name, int age, int ID, float GPA);
+
+	//Accesor Functions
 	string getName();
 	int getAge();
 	int getID();
@@ -21,5 +24,6 @@ public:
 	void setGPA(float gpa);
 
 	void printInfo();
+	string toString();
 };
 
