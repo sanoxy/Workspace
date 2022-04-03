@@ -33,18 +33,43 @@ public class Main {
 
 //        System.out.println(ekok(7,6));
 
+//        System.out.println(binToDec(1101));
 
-
-
-
-
-
-
-
+//        System.out.println(convert(7));
 
     }
 
     //RECURSION ÖZYİNELEME
+
+
+//    static long convert(long number){
+//        long bin = 0;
+//        long rem;
+//        int i = 1;
+//
+//        while(number != 0){
+//            rem = number % 2;
+//            number /= 2;
+//            bin += rem * i;
+//            i *= 10;
+//        }
+//
+//        return bin;
+//    }
+
+//    static long binToDec(long number){
+//        long dec = 0;
+//        long rem;
+//        int i = 0;
+//        while(number != 0){
+//            rem = number % 10;
+//            number /= 10;
+//            dec += rem * Math.pow(2,i);
+//            i++;
+//        }
+//        return dec;
+//    }
+
 
 //    static int ebob(int num1, int num2){
 //        if (num2==0)
