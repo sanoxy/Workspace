@@ -21,16 +21,16 @@
     - Java Arrays:heavy_check_mark:
     - Multidimensional Array:heavy_check_mark:
     - Java Copy Array:heavy_check_mark:
-4. Java OOP (I)
-    - Java Class and Objects
-    - Java Methods
-    - Java Constructor
-    - Java Strings
-    - Java Access Modifiers
-    - Java this keyword
-    - Java final keyword
-    - Java Recursion
-    - Java instanceof Operator
+4. Java OOP (I):heavy_check_mark:
+    - Java Class and Objects:heavy_check_mark:
+    - Java Methods:heavy_check_mark:
+    - Java Constructor:heavy_check_mark:
+    - Java Strings:heavy_check_mark:
+    - Java Access Modifiers:heavy_check_mark:
+    - Java this keyword:heavy_check_mark:
+    - Java final keyword:heavy_check_mark:
+    - Java Recursion:heavy_check_mark:
+    - Java instanceof Operator:heavy_check_mark:
 5. Java OOP (II)
     - Java Inheritance
     - Java Method Overriding
