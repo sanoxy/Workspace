@@ -320,13 +320,16 @@ public class Main {
 
         //Write a java code that calculates factorial of a number given by user.
 
-        Scanner inputTaker = new Scanner(System.in);
-        System.out.print("Enter a number = ");
-        int num = inputTaker.nextInt();
-        int fact = 1;
-        for (int i = 1; i <= num; i++) {
-            fact = fact*i;
-            System.out.println("Factorial = " + fact);
-        }
+//        Scanner inputTaker = new Scanner(System.in);
+//        System.out.print("Enter a number = ");
+//        int num = inputTaker.nextInt();
+//        int fact = 1;
+//        for (int i = 1; i <= num; i++) {
+//            fact = fact*i;
+//        }
+//        System.out.println("Factorial = " + fact);
+
+        
+
     }
 }
