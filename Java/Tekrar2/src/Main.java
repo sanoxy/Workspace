@@ -38,7 +38,6 @@ public class Main {
 //    static int square(int n){
 //        return n * n;
 //    }
-
 //    static int GCD(int n1, int n2) {
 //        if (n2 != 0)
 //            return GCD(n2, n1 % n2);
@@ -46,6 +45,7 @@ public class Main {
 //    }
 
     public static void main(String[] args) {
+
 //        System.out.println("GCD of 20 and 15 is " + GCD(20, 15));
 
 //        System.out.println("Factorial of 5 is = " + fact(5) );
@@ -158,7 +158,7 @@ public class Main {
 //        ages[1] = 20;
 //        ages[2] = 30;
 
-        int[] ages = new int[10];
+//        int[] ages = new int[10];
 
 //        System.out.println(ages[0]);
 //        System.out.println(ages[1]);
