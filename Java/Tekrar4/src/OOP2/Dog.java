@@ -5,7 +5,6 @@ public class Dog extends Animal{
         System.out.println("My name is: " + name);
     }
 
-    @Override
     public void makeSound() {
         System.out.println("Bark!");
     }

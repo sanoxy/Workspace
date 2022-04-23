@@ -9,12 +9,7 @@ public class Person {
     private String color;
 
     Person(){
-        name = "NULL";
-        surname = "NULL";
-        height = 0;
-        weight = 0;
-        sex = "NULL";
-        color = "NULL";
+
     }
 
     //Copy Constructor
