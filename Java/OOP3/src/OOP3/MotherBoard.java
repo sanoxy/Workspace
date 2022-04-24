@@ -1,3 +1,5 @@
+package OOP3;
+
 public class MotherBoard {
     String model;
     public MotherBoard(String model){

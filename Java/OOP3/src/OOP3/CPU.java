@@ -1,3 +1,5 @@
+package OOP3;
+
 public class CPU {
     double price;
 
