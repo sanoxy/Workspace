@@ -1,4 +1,4 @@
-package LinkedList;
+package Dev;
 
 public class LinkedList<T> {
     private Node head;
@@ -67,20 +67,44 @@ public class LinkedList<T> {
         return size;
     }
 
-    public int get(int index) {
+    public T get(int index) {
         if(index > size && index < 0){
-            return Integer.MIN_VALUE;
+            return null;
         }
         Node current = head;
         for(int i = 0; i<index; i++){
             current = current.next;
         }
 
-        return (int) current.data;
+        return (T)current.data;
     }
 
     public void removeDuplicates(){
-        //2-2-3-5-9-9
-        //2-3-5-9
+        if(head == null)
+            return;
+        Node current = head;
+
+        while(current != null){
+            Node repeated = current;
+            while(repeated != null && repeated.next != null){
+                if(current.data == repeated.next.data){
+                    repeated.next = repeated.next.next;
+                }
+                repeated = repeated.next;
+            }
+            current = current.next;
+        }
+    }
+
+    public void print(){
+        if(head == null)
+            return;
+
+        Node current = head;
+        while(current != null){
+            System.out.print(current.data + "->");
+            current = current.next;
+        }
+        System.out.println("null");
     }
 }

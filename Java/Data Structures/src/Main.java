@@ -1,7 +1,3 @@
-package LinkedList;
-
-import java.util.LinkedList;
-
 public class Main {
     public static void main(String[] args) {
 //        LinkedList<Integer> linkedList = new LinkedList<Integer>();
@@ -32,5 +28,17 @@ public class Main {
 //        System.out.println(linkedList1.contains("Erkan"));
 //        linkedList1.delete("Erkan");
 //        System.out.println(linkedList1.contains("Erkan"));
+
+        LinkedList<Integer> linkedList = new LinkedList<>();
+
+        for(int i = 0; i<10; i++){
+            linkedList.append(i);
+            if(i % 2 == 0)
+                linkedList.append(i+2);
+        }
+
+        linkedList.print();
+        linkedList.removeDuplicates();
+        linkedList.print();
     }
 }
