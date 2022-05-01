@@ -10,6 +10,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="C:\Users\erkan.ozcan.MCE-LLC\OneDrive - Mission Critical Electronics\Documents\GitHub\Workspace\Java\SchoolMS\out\production\SchoolMS\Args\Students.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\Args\output.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>

@@ -29,16 +29,24 @@ public class Main {
 //        linkedList1.delete("Erkan");
 //        System.out.println(linkedList1.contains("Erkan"));
 
+//        LinkedList<Integer> linkedList = new LinkedList<>();
+//
+//        for(int i = 0; i<10; i++){
+//            linkedList.append(i);
+//            if(i % 2 == 0)
+//                linkedList.append(i+2);
+//        }
+//
+//        linkedList.print();
+//        linkedList.removeDuplicates();
+//        linkedList.print();
+
         LinkedList<Integer> linkedList = new LinkedList<>();
 
-        for(int i = 0; i<10; i++){
+        for(int i = 1; i<=10; i++){
             linkedList.append(i);
-            if(i % 2 == 0)
-                linkedList.append(i+2);
         }
 
-        linkedList.print();
-        linkedList.removeDuplicates();
-        linkedList.print();
+        linkedList.printMiddle();
     }
 }
