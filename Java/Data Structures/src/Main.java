@@ -43,10 +43,12 @@ public class Main {
 
         LinkedList<Integer> linkedList = new LinkedList<>();
 
-        for(int i = 1; i<=10; i++){
+        for(int i = 1; i<9; i++){
             linkedList.append(i);
         }
 
-        linkedList.printMiddle();
+        linkedList.print();
+        linkedList.head = linkedList.reverseK(linkedList.head,4);
+        linkedList.print();
     }
 }

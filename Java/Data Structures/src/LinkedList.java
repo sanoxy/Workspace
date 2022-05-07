@@ -1,5 +1,5 @@
 public class LinkedList<T> {
-    private Node head;
+    protected Node head;
     private int size = 0;
 
     public void append(T data) {
@@ -120,16 +120,25 @@ public class LinkedList<T> {
         System.out.println("null");
     }
 
-    public void reverseK(){
-        /*
-            Input:
-            LinkedList: 1->2->2->4->5->6->7->8    K = 4
-            Output: 4 2 2 1 8 7 6 5
+    public Node<T> reverseK(Node<T> node, int k){
+        if(node == null)
+            return null;
 
-            Explanation:
-            The first 4 elements 1,2,2,4 are reversed first
-            and then the next 4 elements 5,6,7,8. Hence, the
-            resultant linked list is 4->2->2->1->8->7->6->5.
-         */
+        Node<T> curr = node;
+        Node<T> next = null;
+        Node<T> prev = null;
+        int count = 0;
+
+        while(count < k && curr != null){
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+            count++;
+        }
+        if(next != null){
+            node.next = reverseK(next,k);
+        }
+        return prev;
     }
 }
