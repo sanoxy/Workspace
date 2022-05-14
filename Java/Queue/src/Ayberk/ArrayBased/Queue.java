@@ -33,8 +33,6 @@ public class Queue {
         else{
             front++;
             System.out.println("Removed element: " + queueArray[front-1]);
-
-
             currentSize--;
         }
     }
@@ -72,6 +70,4 @@ public class Queue {
         this.rear = index;
         this.capacity = this.queueArray.length;
     }
-
-
 }
