@@ -9,7 +9,7 @@ public class BinaryTree {
 
     public void preOrder(Node currentNode) {
         if (currentNode==null) return;
-        System.out.print(currentNode.data + " ");
+        System.out.print(currentNode.data + "  ");
         preOrder(currentNode.left);
         preOrder(currentNode.right);
     }
