@@ -1,7 +1,7 @@
 package BinarySearchTree.Ayberk;
 
 public class BinarySearchTree {
-    Node root;
+    private Node root;
 
     BinarySearchTree() {
         this.root = null;
@@ -43,7 +43,7 @@ public class BinarySearchTree {
 
     private Node deleteRec(Node root, int data) {
         if (root == null)
-            return root;
+            return null;
         //Find the node to be deleted
         if (data < root.data)
             root.left = deleteRec(root.left, data);
