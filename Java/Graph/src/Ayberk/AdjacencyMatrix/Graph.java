@@ -1,8 +1,8 @@
 package Ayberk.AdjacencyMatrix;
 
 public class Graph {
-    private boolean adjMatrix[][];
-    private int numVertices;
+    private final boolean[][] adjMatrix;
+    private final int numVertices;
 
     public Graph(int numVertices){
         this.numVertices = numVertices;
