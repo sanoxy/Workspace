@@ -2,9 +2,7 @@ package Dev;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -66,6 +64,31 @@ public class Main {
             e.printStackTrace();
         }
 
+
+        List<List<Node>> adj = new ArrayList<>();
+
+        for(int i = 0; i<81; i++){
+            List<Node> item = new ArrayList<>();
+            adj.add(item);
+        }
+
+        for(Map.Entry<Integer,City> entry: cities.entrySet()){
+            City currentCity = entry.getValue();
+            for(Map.Entry<Integer,City> adjEntry: currentCity.getAdjacency().entrySet()){
+                adj.get(currentCity.getID()-1).add(new Node(adjEntry.getValue().getID(),currentCity.getDistances().get(adjEntry.getValue().getID()-1)));
+            }
+        }
+
+        Dijakstra dijakstra = new Dijakstra(81);
+        dijakstra.dijakstra(adj,1);
+
+        System.out.println("The shortest path from node: ");
+
+        for(int i = 0; i<dijakstra.dist.length; i++){
+            System.out.println(cities.get(1).getName() + " ===> " + cities.get(i+1).getName() + " is " + dijakstra.dist[i]);
+        }
+
         System.out.println(cities);
+
     }
 }
